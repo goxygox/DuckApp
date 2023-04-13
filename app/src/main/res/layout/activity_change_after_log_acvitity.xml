@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B8686"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Войти как"
+        android:textColor="#FBF197"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_marginVertical="120dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FBF197"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Я водитель"
+        android:onClick="GoDriver"
+        android:layout_marginVertical="20dp"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FBF197"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Я пассажир"
+        android:onClick="GoPassenger"
+        android:layout_marginVertical="20dp"/>
+
+</LinearLayout>

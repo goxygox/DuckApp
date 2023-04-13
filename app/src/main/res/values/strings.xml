@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="tab_names">
+        <item>Вкладка 1</item>
+        <item>Вкладка 2</item>
+        <item>Вкладка 3</item>
+        <item>Вкладка 4</item>
+    </string-array>
+    <string name="app_name">LogReg</string>
+    <string name="str_usernamebox">Имя пользователя</string>
+    <string name="str_passwordbox">Пароль</string>
+    <string name="str_loginboxtext">Войти</string>
+    <string name="str_regbuttontext">Регистрация</string>
+    <string name="str_alrreg">Уже зарегистрованы?</string>
+    <string name="str_login">Войти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
